@@ -1,0 +1,7 @@
+function farmacias(){
+
+    let farmacias = []
+    
+
+}
+
