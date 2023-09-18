@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de consumo de api</title>
+    <script src ="api.js"></script>
+    
+    
+</head>
+<body>
+    <form >
+        <div>
+            <label for="Title">Nome do filme</label>
+            <input for="text" id="Title" placeholder="Digite o Titulo do filme"></label>
+        </div>
+        <div>
+            <label for="Language">Linguagem do filme</label>
+            <input for="text" id="Language" placeholder=""></label>
+        </div>
+        <div>
+            <label for="Plot">Descrição </label>
+            <input for="text" id="Plot" placeholder=""></label>
+        </div>
+        <div>
+            <label for="Actors">Atores do filme</label>
+            <input for="text" id="Actors" placeholder=""></label>
+        </div>
+        <div>
+            <label for="Poster">imagem do filme</label>
+        <input type="image" id="Poster" readonly />
+        </div>
+        
+        
+        <div>
+            <button type="button" onclick="buscaFilme()">Buscar</button>
+        </div>
+    </form>
+</body>
+</html>
